@@ -111,7 +111,9 @@ const SCHEMA_SYSTEM: HaFormSchema[] = [
 
 const SCHEMA_THRESHOLDS: HaFormSchema[] = [
   { name: "low_threshold",  selector: { number: { min: 0, step: 0.1, mode: "box", unit_of_measurement: "kWh" } } },
+  { name: "low_threshold_entity", selector: { entity: { domain: "sensor" } } },
   { name: "high_threshold", selector: { number: { min: 0, step: 0.1, mode: "box", unit_of_measurement: "kWh" } } },
+  { name: "high_threshold_entity", selector: { entity: { domain: "sensor" } } },
 ];
 
 // ── Flat form data (ha-form requires a plain object) ─────────────────────────
@@ -139,7 +141,9 @@ interface FormData {
   inverter_max_kw: number | undefined;
   solar_max_kwp: number | undefined;
   low_threshold: number | undefined;
+  low_threshold_entity: string;
   high_threshold: number | undefined;
+  high_threshold_entity: string;
   desktop_text_scale: number;
   font_size: number | undefined;
   bar_width: number | undefined;
@@ -181,7 +185,9 @@ export function normalizeConfig(
     inverter_max_kw:      raw.inverter_max_kw,
     solar_max_kwp:        raw.solar_max_kwp,
     low_threshold:        raw.low_threshold,
+    low_threshold_entity: raw.low_threshold_entity,
     high_threshold:       raw.high_threshold,
+    high_threshold_entity: raw.high_threshold_entity,
     desktop_text_scale:   raw.desktop_text_scale,
     font_size:            raw.font_size,
     bar_width:            raw.bar_width,
@@ -267,7 +273,9 @@ export class SolarForecastCardEditor extends LitElement {
       inverter_max_kw:     cfg.inverter_max_kw,
       solar_max_kwp:       cfg.solar_max_kwp,
       low_threshold:       cfg.low_threshold,
+      low_threshold_entity: cfg.low_threshold_entity ?? "",
       high_threshold:      cfg.high_threshold,
+      high_threshold_entity: cfg.high_threshold_entity ?? "",
       desktop_text_scale:  cfg.desktop_text_scale ?? 100,
       font_size:           cfg.font_size,
       bar_width:           cfg.bar_width,
@@ -316,6 +324,8 @@ export class SolarForecastCardEditor extends LitElement {
       solar_max_kwp:      typeof data.solar_max_kwp      === "number" ? data.solar_max_kwp      : undefined,
       low_threshold:      typeof data.low_threshold      === "number" ? data.low_threshold      : undefined,
       high_threshold:     typeof data.high_threshold     === "number" ? data.high_threshold     : undefined,
+      low_threshold_entity: data.low_threshold_entity || undefined,
+      high_threshold_entity: data.high_threshold_entity || undefined,
       // Only persist when non-default (100) so YAML stays clean for most users.
       desktop_text_scale: typeof data.desktop_text_scale === "number" && data.desktop_text_scale !== 100
         ? data.desktop_text_scale

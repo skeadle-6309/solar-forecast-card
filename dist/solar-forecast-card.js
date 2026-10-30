@@ -183,6 +183,8 @@ var af = {
       "solar_max_kwp": "Solar array size (kWp)",
       "low_threshold": "Low threshold (kWh)",
       "high_threshold": "High threshold (kWh)",
+      "low_threshold_entity": "Low threshold sensor (optional, kWh)",
+      "high_threshold_entity": "High threshold sensor (optional, kWh)",
       "desktop_text_scale": "Desktop Text Scale",
       "font_size": "Font Size",
       "bar_width": "Bar Width"
@@ -336,6 +338,8 @@ var ar = {
       "solar_max_kwp": "Solar array size (kWp)",
       "low_threshold": "Low threshold (kWh)",
       "high_threshold": "High threshold (kWh)",
+      "low_threshold_entity": "Low threshold sensor (optional, kWh)",
+      "high_threshold_entity": "High threshold sensor (optional, kWh)",
       "desktop_text_scale": "Desktop Text Scale",
       "font_size": "Font Size",
       "bar_width": "Bar Width"
@@ -489,6 +493,8 @@ var bg = {
       "solar_max_kwp": "Solar array size (kWp)",
       "low_threshold": "Low threshold (kWh)",
       "high_threshold": "High threshold (kWh)",
+      "low_threshold_entity": "Low threshold sensor (optional, kWh)",
+      "high_threshold_entity": "High threshold sensor (optional, kWh)",
       "desktop_text_scale": "Desktop Text Scale",
       "font_size": "Font Size",
       "bar_width": "Bar Width"
@@ -642,6 +648,8 @@ var bn = {
       "solar_max_kwp": "Solar array size (kWp)",
       "low_threshold": "Low threshold (kWh)",
       "high_threshold": "High threshold (kWh)",
+      "low_threshold_entity": "Low threshold sensor (optional, kWh)",
+      "high_threshold_entity": "High threshold sensor (optional, kWh)",
       "desktop_text_scale": "Desktop Text Scale",
       "font_size": "Font Size",
       "bar_width": "Bar Width"
@@ -795,6 +803,8 @@ var bs = {
       "solar_max_kwp": "Solar array size (kWp)",
       "low_threshold": "Low threshold (kWh)",
       "high_threshold": "High threshold (kWh)",
+      "low_threshold_entity": "Low threshold sensor (optional, kWh)",
+      "high_threshold_entity": "High threshold sensor (optional, kWh)",
       "desktop_text_scale": "Desktop Text Scale",
       "font_size": "Font Size",
       "bar_width": "Bar Width"
@@ -948,6 +958,8 @@ var ca = {
       "solar_max_kwp": "Solar array size (kWp)",
       "low_threshold": "Low threshold (kWh)",
       "high_threshold": "High threshold (kWh)",
+      "low_threshold_entity": "Low threshold sensor (optional, kWh)",
+      "high_threshold_entity": "High threshold sensor (optional, kWh)",
       "desktop_text_scale": "Desktop Text Scale",
       "font_size": "Font Size",
       "bar_width": "Bar Width"
@@ -1101,6 +1113,8 @@ var cs = {
       "solar_max_kwp": "Solar array size (kWp)",
       "low_threshold": "Low threshold (kWh)",
       "high_threshold": "High threshold (kWh)",
+      "low_threshold_entity": "Low threshold sensor (optional, kWh)",
+      "high_threshold_entity": "High threshold sensor (optional, kWh)",
       "desktop_text_scale": "Desktop Text Scale",
       "font_size": "Font Size",
       "bar_width": "Bar Width"
@@ -1254,6 +1268,8 @@ var cy = {
       "solar_max_kwp": "Solar array size (kWp)",
       "low_threshold": "Low threshold (kWh)",
       "high_threshold": "High threshold (kWh)",
+      "low_threshold_entity": "Low threshold sensor (optional, kWh)",
+      "high_threshold_entity": "High threshold sensor (optional, kWh)",
       "desktop_text_scale": "Desktop Text Scale",
       "font_size": "Font Size",
       "bar_width": "Bar Width"
@@ -1407,6 +1423,8 @@ var da = {
       "solar_max_kwp": "Solar array size (kWp)",
       "low_threshold": "Low threshold (kWh)",
       "high_threshold": "High threshold (kWh)",
+      "low_threshold_entity": "Low threshold sensor (optional, kWh)",
+      "high_threshold_entity": "High threshold sensor (optional, kWh)",
       "desktop_text_scale": "Desktop Text Scale",
       "font_size": "Font Size",
       "bar_width": "Bar Width"
@@ -1560,6 +1578,8 @@ var de = {
       "solar_max_kwp": "Größe der Solaranlage (kWp)",
       "low_threshold": "Niedriger Schwellenwert (kWh)",
       "high_threshold": "Hoher Schwellenwert (kWh)",
+      "low_threshold_entity": "Niedriger Schwellenwert Sensor (kWh)",
+      "high_threshold_entity": "Hoher Schwellenwert Sensor (kWh)",
       "desktop_text_scale": "Desktop-Textskalierung",
       "font_size": "Font Size",
       "bar_width": "Bar Width"
@@ -1713,6 +1733,8 @@ var el = {
       "solar_max_kwp": "Solar array size (kWp)",
       "low_threshold": "Low threshold (kWh)",
       "high_threshold": "High threshold (kWh)",
+      "low_threshold_entity": "Low threshold sensor (optional, kWh)",
+      "high_threshold_entity": "High threshold sensor (optional, kWh)",
       "desktop_text_scale": "Desktop Text Scale",
       "font_size": "Font Size",
       "bar_width": "Bar Width"
@@ -1866,6 +1888,8 @@ var en = {
       "solar_max_kwp": "Solar array size (kWp)",
       "low_threshold": "Low threshold (kWh)",
       "high_threshold": "High threshold (kWh)",
+      "low_threshold_entity": "Low threshold sensor (optional, kWh)",
+      "high_threshold_entity": "High threshold sensor (optional, kWh)",
       "desktop_text_scale": "Desktop Text Scale",
       "font_size": "Font Size",
       "bar_width": "Bar Width"
@@ -2019,6 +2043,8 @@ var en_GB = {
       "solar_max_kwp": "Solar array size (kWp)",
       "low_threshold": "Low threshold (kWh)",
       "high_threshold": "High threshold (kWh)",
+      "low_threshold_entity": "Low threshold sensor (optional, kWh)",
+      "high_threshold_entity": "High threshold sensor (optional, kWh)",
       "desktop_text_scale": "Desktop Text Scale",
       "font_size": "Font Size",
       "bar_width": "Bar Width"
@@ -2172,6 +2198,8 @@ var eo = {
       "solar_max_kwp": "Solar array size (kWp)",
       "low_threshold": "Low threshold (kWh)",
       "high_threshold": "High threshold (kWh)",
+      "low_threshold_entity": "Low threshold sensor (optional, kWh)",
+      "high_threshold_entity": "High threshold sensor (optional, kWh)",
       "desktop_text_scale": "Desktop Text Scale",
       "font_size": "Font Size",
       "bar_width": "Bar Width"
@@ -2325,6 +2353,8 @@ var es = {
       "solar_max_kwp": "Solar array size (kWp)",
       "low_threshold": "Low threshold (kWh)",
       "high_threshold": "High threshold (kWh)",
+      "low_threshold_entity": "Low threshold sensor (optional, kWh)",
+      "high_threshold_entity": "High threshold sensor (optional, kWh)",
       "desktop_text_scale": "Desktop Text Scale",
       "font_size": "Font Size",
       "bar_width": "Bar Width"
@@ -2478,6 +2508,8 @@ var es_419 = {
       "solar_max_kwp": "Solar array size (kWp)",
       "low_threshold": "Low threshold (kWh)",
       "high_threshold": "High threshold (kWh)",
+      "low_threshold_entity": "Low threshold sensor (optional, kWh)",
+      "high_threshold_entity": "High threshold sensor (optional, kWh)",
       "desktop_text_scale": "Desktop Text Scale",
       "font_size": "Font Size",
       "bar_width": "Bar Width"
@@ -2631,6 +2663,8 @@ var et = {
       "solar_max_kwp": "Solar array size (kWp)",
       "low_threshold": "Low threshold (kWh)",
       "high_threshold": "High threshold (kWh)",
+      "low_threshold_entity": "Low threshold sensor (optional, kWh)",
+      "high_threshold_entity": "High threshold sensor (optional, kWh)",
       "desktop_text_scale": "Desktop Text Scale",
       "font_size": "Font Size",
       "bar_width": "Bar Width"
@@ -2784,6 +2818,8 @@ var eu = {
       "solar_max_kwp": "Solar array size (kWp)",
       "low_threshold": "Low threshold (kWh)",
       "high_threshold": "High threshold (kWh)",
+      "low_threshold_entity": "Low threshold sensor (optional, kWh)",
+      "high_threshold_entity": "High threshold sensor (optional, kWh)",
       "desktop_text_scale": "Desktop Text Scale",
       "font_size": "Font Size",
       "bar_width": "Bar Width"
@@ -2937,6 +2973,8 @@ var fa = {
       "solar_max_kwp": "Solar array size (kWp)",
       "low_threshold": "Low threshold (kWh)",
       "high_threshold": "High threshold (kWh)",
+      "low_threshold_entity": "Low threshold sensor (optional, kWh)",
+      "high_threshold_entity": "High threshold sensor (optional, kWh)",
       "desktop_text_scale": "Desktop Text Scale",
       "font_size": "Font Size",
       "bar_width": "Bar Width"
@@ -3090,6 +3128,8 @@ var fi = {
       "solar_max_kwp": "Solar array size (kWp)",
       "low_threshold": "Low threshold (kWh)",
       "high_threshold": "High threshold (kWh)",
+      "low_threshold_entity": "Low threshold sensor (optional, kWh)",
+      "high_threshold_entity": "High threshold sensor (optional, kWh)",
       "desktop_text_scale": "Desktop Text Scale",
       "font_size": "Font Size",
       "bar_width": "Bar Width"
@@ -3243,6 +3283,8 @@ var fy = {
       "solar_max_kwp": "Solar array size (kWp)",
       "low_threshold": "Low threshold (kWh)",
       "high_threshold": "High threshold (kWh)",
+      "low_threshold_entity": "Low threshold sensor (optional, kWh)",
+      "high_threshold_entity": "High threshold sensor (optional, kWh)",
       "desktop_text_scale": "Desktop Text Scale",
       "font_size": "Font Size",
       "bar_width": "Bar Width"
@@ -3396,6 +3438,8 @@ var fr = {
       "solar_max_kwp": "Solar array size (kWp)",
       "low_threshold": "Low threshold (kWh)",
       "high_threshold": "High threshold (kWh)",
+      "low_threshold_entity": "Low threshold sensor (optional, kWh)",
+      "high_threshold_entity": "High threshold sensor (optional, kWh)",
       "desktop_text_scale": "Desktop Text Scale",
       "font_size": "Font Size",
       "bar_width": "Bar Width"
@@ -3549,6 +3593,8 @@ var ga = {
       "solar_max_kwp": "Solar array size (kWp)",
       "low_threshold": "Low threshold (kWh)",
       "high_threshold": "High threshold (kWh)",
+      "low_threshold_entity": "Low threshold sensor (optional, kWh)",
+      "high_threshold_entity": "High threshold sensor (optional, kWh)",
       "desktop_text_scale": "Desktop Text Scale",
       "font_size": "Font Size",
       "bar_width": "Bar Width"
@@ -3702,6 +3748,8 @@ var gl = {
       "solar_max_kwp": "Solar array size (kWp)",
       "low_threshold": "Low threshold (kWh)",
       "high_threshold": "High threshold (kWh)",
+      "low_threshold_entity": "Low threshold sensor (optional, kWh)",
+      "high_threshold_entity": "High threshold sensor (optional, kWh)",
       "desktop_text_scale": "Desktop Text Scale",
       "font_size": "Font Size",
       "bar_width": "Bar Width"
@@ -3855,6 +3903,8 @@ var gsw = {
       "solar_max_kwp": "Solar array size (kWp)",
       "low_threshold": "Low threshold (kWh)",
       "high_threshold": "High threshold (kWh)",
+      "low_threshold_entity": "Low threshold sensor (optional, kWh)",
+      "high_threshold_entity": "High threshold sensor (optional, kWh)",
       "desktop_text_scale": "Desktop Text Scale",
       "font_size": "Font Size",
       "bar_width": "Bar Width"
@@ -4008,6 +4058,8 @@ var he = {
       "solar_max_kwp": "Solar array size (kWp)",
       "low_threshold": "Low threshold (kWh)",
       "high_threshold": "High threshold (kWh)",
+      "low_threshold_entity": "Low threshold sensor (optional, kWh)",
+      "high_threshold_entity": "High threshold sensor (optional, kWh)",
       "desktop_text_scale": "Desktop Text Scale",
       "font_size": "Font Size",
       "bar_width": "Bar Width"
@@ -4161,6 +4213,8 @@ var hi = {
       "solar_max_kwp": "Solar array size (kWp)",
       "low_threshold": "Low threshold (kWh)",
       "high_threshold": "High threshold (kWh)",
+      "low_threshold_entity": "Low threshold sensor (optional, kWh)",
+      "high_threshold_entity": "High threshold sensor (optional, kWh)",
       "desktop_text_scale": "Desktop Text Scale",
       "font_size": "Font Size",
       "bar_width": "Bar Width"
@@ -4314,6 +4368,8 @@ var hr = {
       "solar_max_kwp": "Solar array size (kWp)",
       "low_threshold": "Low threshold (kWh)",
       "high_threshold": "High threshold (kWh)",
+      "low_threshold_entity": "Low threshold sensor (optional, kWh)",
+      "high_threshold_entity": "High threshold sensor (optional, kWh)",
       "desktop_text_scale": "Desktop Text Scale",
       "font_size": "Font Size",
       "bar_width": "Bar Width"
@@ -4467,6 +4523,8 @@ var hu = {
       "solar_max_kwp": "Solar array size (kWp)",
       "low_threshold": "Low threshold (kWh)",
       "high_threshold": "High threshold (kWh)",
+      "low_threshold_entity": "Low threshold sensor (optional, kWh)",
+      "high_threshold_entity": "High threshold sensor (optional, kWh)",
       "desktop_text_scale": "Desktop Text Scale",
       "font_size": "Font Size",
       "bar_width": "Bar Width"
@@ -4620,6 +4678,8 @@ var hy = {
       "solar_max_kwp": "Solar array size (kWp)",
       "low_threshold": "Low threshold (kWh)",
       "high_threshold": "High threshold (kWh)",
+      "low_threshold_entity": "Low threshold sensor (optional, kWh)",
+      "high_threshold_entity": "High threshold sensor (optional, kWh)",
       "desktop_text_scale": "Desktop Text Scale",
       "font_size": "Font Size",
       "bar_width": "Bar Width"
@@ -4773,6 +4833,8 @@ var id = {
       "solar_max_kwp": "Solar array size (kWp)",
       "low_threshold": "Low threshold (kWh)",
       "high_threshold": "High threshold (kWh)",
+      "low_threshold_entity": "Low threshold sensor (optional, kWh)",
+      "high_threshold_entity": "High threshold sensor (optional, kWh)",
       "desktop_text_scale": "Desktop Text Scale",
       "font_size": "Font Size",
       "bar_width": "Bar Width"
@@ -4926,6 +4988,8 @@ var it = {
       "solar_max_kwp": "Solar array size (kWp)",
       "low_threshold": "Low threshold (kWh)",
       "high_threshold": "High threshold (kWh)",
+      "low_threshold_entity": "Low threshold sensor (optional, kWh)",
+      "high_threshold_entity": "High threshold sensor (optional, kWh)",
       "desktop_text_scale": "Desktop Text Scale",
       "font_size": "Font Size",
       "bar_width": "Bar Width"
@@ -5079,6 +5143,8 @@ var is = {
       "solar_max_kwp": "Solar array size (kWp)",
       "low_threshold": "Low threshold (kWh)",
       "high_threshold": "High threshold (kWh)",
+      "low_threshold_entity": "Low threshold sensor (optional, kWh)",
+      "high_threshold_entity": "High threshold sensor (optional, kWh)",
       "desktop_text_scale": "Desktop Text Scale",
       "font_size": "Font Size",
       "bar_width": "Bar Width"
@@ -5232,6 +5298,8 @@ var ja = {
       "solar_max_kwp": "Solar array size (kWp)",
       "low_threshold": "Low threshold (kWh)",
       "high_threshold": "High threshold (kWh)",
+      "low_threshold_entity": "Low threshold sensor (optional, kWh)",
+      "high_threshold_entity": "High threshold sensor (optional, kWh)",
       "desktop_text_scale": "Desktop Text Scale",
       "font_size": "Font Size",
       "bar_width": "Bar Width"
@@ -5385,6 +5453,8 @@ var ka = {
       "solar_max_kwp": "Solar array size (kWp)",
       "low_threshold": "Low threshold (kWh)",
       "high_threshold": "High threshold (kWh)",
+      "low_threshold_entity": "Low threshold sensor (optional, kWh)",
+      "high_threshold_entity": "High threshold sensor (optional, kWh)",
       "desktop_text_scale": "Desktop Text Scale",
       "font_size": "Font Size",
       "bar_width": "Bar Width"
@@ -5538,6 +5608,8 @@ var ko = {
       "solar_max_kwp": "Solar array size (kWp)",
       "low_threshold": "Low threshold (kWh)",
       "high_threshold": "High threshold (kWh)",
+      "low_threshold_entity": "Low threshold sensor (optional, kWh)",
+      "high_threshold_entity": "High threshold sensor (optional, kWh)",
       "desktop_text_scale": "Desktop Text Scale",
       "font_size": "Font Size",
       "bar_width": "Bar Width"
@@ -5691,6 +5763,8 @@ var lb = {
       "solar_max_kwp": "Solar array size (kWp)",
       "low_threshold": "Low threshold (kWh)",
       "high_threshold": "High threshold (kWh)",
+      "low_threshold_entity": "Low threshold sensor (optional, kWh)",
+      "high_threshold_entity": "High threshold sensor (optional, kWh)",
       "desktop_text_scale": "Desktop Text Scale",
       "font_size": "Font Size",
       "bar_width": "Bar Width"
@@ -5844,6 +5918,8 @@ var lt = {
       "solar_max_kwp": "Solar array size (kWp)",
       "low_threshold": "Low threshold (kWh)",
       "high_threshold": "High threshold (kWh)",
+      "low_threshold_entity": "Low threshold sensor (optional, kWh)",
+      "high_threshold_entity": "High threshold sensor (optional, kWh)",
       "desktop_text_scale": "Desktop Text Scale",
       "font_size": "Font Size",
       "bar_width": "Bar Width"
@@ -5997,6 +6073,8 @@ var lv = {
       "solar_max_kwp": "Solar array size (kWp)",
       "low_threshold": "Low threshold (kWh)",
       "high_threshold": "High threshold (kWh)",
+      "low_threshold_entity": "Low threshold sensor (optional, kWh)",
+      "high_threshold_entity": "High threshold sensor (optional, kWh)",
       "desktop_text_scale": "Desktop Text Scale",
       "font_size": "Font Size",
       "bar_width": "Bar Width"
@@ -6150,6 +6228,8 @@ var mk = {
       "solar_max_kwp": "Solar array size (kWp)",
       "low_threshold": "Low threshold (kWh)",
       "high_threshold": "High threshold (kWh)",
+      "low_threshold_entity": "Low threshold sensor (optional, kWh)",
+      "high_threshold_entity": "High threshold sensor (optional, kWh)",
       "desktop_text_scale": "Desktop Text Scale",
       "font_size": "Font Size",
       "bar_width": "Bar Width"
@@ -6303,6 +6383,8 @@ var ml = {
       "solar_max_kwp": "Solar array size (kWp)",
       "low_threshold": "Low threshold (kWh)",
       "high_threshold": "High threshold (kWh)",
+      "low_threshold_entity": "Low threshold sensor (optional, kWh)",
+      "high_threshold_entity": "High threshold sensor (optional, kWh)",
       "desktop_text_scale": "Desktop Text Scale",
       "font_size": "Font Size",
       "bar_width": "Bar Width"
@@ -6456,6 +6538,8 @@ var nl = {
       "solar_max_kwp": "Solar array size (kWp)",
       "low_threshold": "Low threshold (kWh)",
       "high_threshold": "High threshold (kWh)",
+      "low_threshold_entity": "Low threshold sensor (optional, kWh)",
+      "high_threshold_entity": "High threshold sensor (optional, kWh)",
       "desktop_text_scale": "Desktop Text Scale",
       "font_size": "Font Size",
       "bar_width": "Bar Width"
@@ -6609,6 +6693,8 @@ var nb = {
       "solar_max_kwp": "Solar array size (kWp)",
       "low_threshold": "Low threshold (kWh)",
       "high_threshold": "High threshold (kWh)",
+      "low_threshold_entity": "Low threshold sensor (optional, kWh)",
+      "high_threshold_entity": "High threshold sensor (optional, kWh)",
       "desktop_text_scale": "Desktop Text Scale",
       "font_size": "Font Size",
       "bar_width": "Bar Width"
@@ -6762,6 +6848,8 @@ var nn = {
       "solar_max_kwp": "Solar array size (kWp)",
       "low_threshold": "Low threshold (kWh)",
       "high_threshold": "High threshold (kWh)",
+      "low_threshold_entity": "Low threshold sensor (optional, kWh)",
+      "high_threshold_entity": "High threshold sensor (optional, kWh)",
       "desktop_text_scale": "Desktop Text Scale",
       "font_size": "Font Size",
       "bar_width": "Bar Width"
@@ -6915,6 +7003,8 @@ var pl = {
       "solar_max_kwp": "Solar array size (kWp)",
       "low_threshold": "Low threshold (kWh)",
       "high_threshold": "High threshold (kWh)",
+      "low_threshold_entity": "Low threshold sensor (optional, kWh)",
+      "high_threshold_entity": "High threshold sensor (optional, kWh)",
       "desktop_text_scale": "Desktop Text Scale",
       "font_size": "Font Size",
       "bar_width": "Bar Width"
@@ -7068,6 +7158,8 @@ var pt = {
       "solar_max_kwp": "Solar array size (kWp)",
       "low_threshold": "Low threshold (kWh)",
       "high_threshold": "High threshold (kWh)",
+      "low_threshold_entity": "Low threshold sensor (optional, kWh)",
+      "high_threshold_entity": "High threshold sensor (optional, kWh)",
       "desktop_text_scale": "Desktop Text Scale",
       "font_size": "Font Size",
       "bar_width": "Bar Width"
@@ -7221,6 +7313,8 @@ var pt_BR = {
       "solar_max_kwp": "Solar array size (kWp)",
       "low_threshold": "Low threshold (kWh)",
       "high_threshold": "High threshold (kWh)",
+      "low_threshold_entity": "Low threshold sensor (optional, kWh)",
+      "high_threshold_entity": "High threshold sensor (optional, kWh)",
       "desktop_text_scale": "Desktop Text Scale",
       "font_size": "Font Size",
       "bar_width": "Bar Width"
@@ -7374,6 +7468,8 @@ var ro = {
       "solar_max_kwp": "Solar array size (kWp)",
       "low_threshold": "Low threshold (kWh)",
       "high_threshold": "High threshold (kWh)",
+      "low_threshold_entity": "Low threshold sensor (optional, kWh)",
+      "high_threshold_entity": "High threshold sensor (optional, kWh)",
       "desktop_text_scale": "Desktop Text Scale",
       "font_size": "Font Size",
       "bar_width": "Bar Width"
@@ -7527,6 +7623,8 @@ var ru = {
       "solar_max_kwp": "Solar array size (kWp)",
       "low_threshold": "Low threshold (kWh)",
       "high_threshold": "High threshold (kWh)",
+      "low_threshold_entity": "Low threshold sensor (optional, kWh)",
+      "high_threshold_entity": "High threshold sensor (optional, kWh)",
       "desktop_text_scale": "Desktop Text Scale",
       "font_size": "Font Size",
       "bar_width": "Bar Width"
@@ -7680,6 +7778,8 @@ var sk = {
       "solar_max_kwp": "Solar array size (kWp)",
       "low_threshold": "Low threshold (kWh)",
       "high_threshold": "High threshold (kWh)",
+      "low_threshold_entity": "Low threshold sensor (optional, kWh)",
+      "high_threshold_entity": "High threshold sensor (optional, kWh)",
       "desktop_text_scale": "Desktop Text Scale",
       "font_size": "Font Size",
       "bar_width": "Bar Width"
@@ -7833,6 +7933,8 @@ var sl = {
       "solar_max_kwp": "Solar array size (kWp)",
       "low_threshold": "Low threshold (kWh)",
       "high_threshold": "High threshold (kWh)",
+      "low_threshold_entity": "Low threshold sensor (optional, kWh)",
+      "high_threshold_entity": "High threshold sensor (optional, kWh)",
       "desktop_text_scale": "Desktop Text Scale",
       "font_size": "Font Size",
       "bar_width": "Bar Width"
@@ -7986,6 +8088,8 @@ var sr = {
       "solar_max_kwp": "Solar array size (kWp)",
       "low_threshold": "Low threshold (kWh)",
       "high_threshold": "High threshold (kWh)",
+      "low_threshold_entity": "Low threshold sensor (optional, kWh)",
+      "high_threshold_entity": "High threshold sensor (optional, kWh)",
       "desktop_text_scale": "Desktop Text Scale",
       "font_size": "Font Size",
       "bar_width": "Bar Width"
@@ -8139,6 +8243,8 @@ var sr_Latn = {
       "solar_max_kwp": "Solar array size (kWp)",
       "low_threshold": "Low threshold (kWh)",
       "high_threshold": "High threshold (kWh)",
+      "low_threshold_entity": "Low threshold sensor (optional, kWh)",
+      "high_threshold_entity": "High threshold sensor (optional, kWh)",
       "desktop_text_scale": "Desktop Text Scale",
       "font_size": "Font Size",
       "bar_width": "Bar Width"
@@ -8292,6 +8398,8 @@ var sv = {
       "solar_max_kwp": "Solar array size (kWp)",
       "low_threshold": "Low threshold (kWh)",
       "high_threshold": "High threshold (kWh)",
+      "low_threshold_entity": "Low threshold sensor (optional, kWh)",
+      "high_threshold_entity": "High threshold sensor (optional, kWh)",
       "desktop_text_scale": "Desktop Text Scale",
       "font_size": "Font Size",
       "bar_width": "Bar Width"
@@ -8445,6 +8553,8 @@ var sq = {
       "solar_max_kwp": "Solar array size (kWp)",
       "low_threshold": "Low threshold (kWh)",
       "high_threshold": "High threshold (kWh)",
+      "low_threshold_entity": "Low threshold sensor (optional, kWh)",
+      "high_threshold_entity": "High threshold sensor (optional, kWh)",
       "desktop_text_scale": "Desktop Text Scale",
       "font_size": "Font Size",
       "bar_width": "Bar Width"
@@ -8598,6 +8708,8 @@ var ta = {
       "solar_max_kwp": "Solar array size (kWp)",
       "low_threshold": "Low threshold (kWh)",
       "high_threshold": "High threshold (kWh)",
+      "low_threshold_entity": "Low threshold sensor (optional, kWh)",
+      "high_threshold_entity": "High threshold sensor (optional, kWh)",
       "desktop_text_scale": "Desktop Text Scale",
       "font_size": "Font Size",
       "bar_width": "Bar Width"
@@ -8751,6 +8863,8 @@ var te = {
       "solar_max_kwp": "Solar array size (kWp)",
       "low_threshold": "Low threshold (kWh)",
       "high_threshold": "High threshold (kWh)",
+      "low_threshold_entity": "Low threshold sensor (optional, kWh)",
+      "high_threshold_entity": "High threshold sensor (optional, kWh)",
       "desktop_text_scale": "Desktop Text Scale",
       "font_size": "Font Size",
       "bar_width": "Bar Width"
@@ -8904,6 +9018,8 @@ var th = {
       "solar_max_kwp": "Solar array size (kWp)",
       "low_threshold": "Low threshold (kWh)",
       "high_threshold": "High threshold (kWh)",
+      "low_threshold_entity": "Low threshold sensor (optional, kWh)",
+      "high_threshold_entity": "High threshold sensor (optional, kWh)",
       "desktop_text_scale": "Desktop Text Scale",
       "font_size": "Font Size",
       "bar_width": "Bar Width"
@@ -9057,6 +9173,8 @@ var tr = {
       "solar_max_kwp": "Solar array size (kWp)",
       "low_threshold": "Low threshold (kWh)",
       "high_threshold": "High threshold (kWh)",
+      "low_threshold_entity": "Low threshold sensor (optional, kWh)",
+      "high_threshold_entity": "High threshold sensor (optional, kWh)",
       "desktop_text_scale": "Desktop Text Scale",
       "font_size": "Font Size",
       "bar_width": "Bar Width"
@@ -9210,6 +9328,8 @@ var uk = {
       "solar_max_kwp": "Solar array size (kWp)",
       "low_threshold": "Low threshold (kWh)",
       "high_threshold": "High threshold (kWh)",
+      "low_threshold_entity": "Low threshold sensor (optional, kWh)",
+      "high_threshold_entity": "High threshold sensor (optional, kWh)",
       "desktop_text_scale": "Desktop Text Scale",
       "font_size": "Font Size",
       "bar_width": "Bar Width"
@@ -9363,6 +9483,8 @@ var ur = {
       "solar_max_kwp": "Solar array size (kWp)",
       "low_threshold": "Low threshold (kWh)",
       "high_threshold": "High threshold (kWh)",
+      "low_threshold_entity": "Low threshold sensor (optional, kWh)",
+      "high_threshold_entity": "High threshold sensor (optional, kWh)",
       "desktop_text_scale": "Desktop Text Scale",
       "font_size": "Font Size",
       "bar_width": "Bar Width"
@@ -9516,6 +9638,8 @@ var vi = {
       "solar_max_kwp": "Solar array size (kWp)",
       "low_threshold": "Low threshold (kWh)",
       "high_threshold": "High threshold (kWh)",
+      "low_threshold_entity": "Low threshold sensor (optional, kWh)",
+      "high_threshold_entity": "High threshold sensor (optional, kWh)",
       "desktop_text_scale": "Desktop Text Scale",
       "font_size": "Font Size",
       "bar_width": "Bar Width"
@@ -9669,6 +9793,8 @@ var zh_Hans = {
       "solar_max_kwp": "Solar array size (kWp)",
       "low_threshold": "Low threshold (kWh)",
       "high_threshold": "High threshold (kWh)",
+      "low_threshold_entity": "Low threshold sensor (optional, kWh)",
+      "high_threshold_entity": "High threshold sensor (optional, kWh)",
       "desktop_text_scale": "Desktop Text Scale",
       "font_size": "Font Size",
       "bar_width": "Bar Width"
@@ -9822,6 +9948,8 @@ var zh_Hant = {
       "solar_max_kwp": "Solar array size (kWp)",
       "low_threshold": "Low threshold (kWh)",
       "high_threshold": "High threshold (kWh)",
+      "low_threshold_entity": "Low threshold sensor (optional, kWh)",
+      "high_threshold_entity": "High threshold sensor (optional, kWh)",
       "desktop_text_scale": "Desktop Text Scale",
       "font_size": "Font Size",
       "bar_width": "Bar Width"
@@ -10046,7 +10174,9 @@ const SCHEMA_SYSTEM = [
 ];
 const SCHEMA_THRESHOLDS = [
     { name: "low_threshold", selector: { number: { min: 0, step: 0.1, mode: "box", unit_of_measurement: "kWh" } } },
+    { name: "low_threshold_entity", selector: { entity: { domain: "sensor" } } },
     { name: "high_threshold", selector: { number: { min: 0, step: 0.1, mode: "box", unit_of_measurement: "kWh" } } },
+    { name: "high_threshold_entity", selector: { entity: { domain: "sensor" } } },
 ];
 // ── Config normalisation (exported — also used by the main card) ──────────────
 function normalizeConfig(raw) {
@@ -10078,7 +10208,9 @@ function normalizeConfig(raw) {
         inverter_max_kw: raw.inverter_max_kw,
         solar_max_kwp: raw.solar_max_kwp,
         low_threshold: raw.low_threshold,
+        low_threshold_entity: raw.low_threshold_entity,
         high_threshold: raw.high_threshold,
+        high_threshold_entity: raw.high_threshold_entity,
         desktop_text_scale: raw.desktop_text_scale,
         font_size: raw.font_size,
         bar_width: raw.bar_width,
@@ -10153,7 +10285,9 @@ let SolarForecastCardEditor = class SolarForecastCardEditor extends i$2 {
             inverter_max_kw: cfg.inverter_max_kw,
             solar_max_kwp: cfg.solar_max_kwp,
             low_threshold: cfg.low_threshold,
+            low_threshold_entity: cfg.low_threshold_entity ?? "",
             high_threshold: cfg.high_threshold,
+            high_threshold_entity: cfg.high_threshold_entity ?? "",
             desktop_text_scale: cfg.desktop_text_scale ?? 100,
             font_size: cfg.font_size,
             bar_width: cfg.bar_width,
@@ -10200,6 +10334,8 @@ let SolarForecastCardEditor = class SolarForecastCardEditor extends i$2 {
             solar_max_kwp: typeof data.solar_max_kwp === "number" ? data.solar_max_kwp : undefined,
             low_threshold: typeof data.low_threshold === "number" ? data.low_threshold : undefined,
             high_threshold: typeof data.high_threshold === "number" ? data.high_threshold : undefined,
+            low_threshold_entity: data.low_threshold_entity || undefined,
+            high_threshold_entity: data.high_threshold_entity || undefined,
             // Only persist when non-default (100) so YAML stays clean for most users.
             desktop_text_scale: typeof data.desktop_text_scale === "number" && data.desktop_text_scale !== 100
                 ? data.desktop_text_scale
@@ -11501,8 +11637,26 @@ let SolarForecastCard = class SolarForecastCard extends i$2 {
     _tier(kwh) {
         if (kwh === null)
             return "average";
-        const lo = this._config?.low_threshold;
-        const hi = this._config?.high_threshold;
+        const resolveThreshold = (entityId, fallback) => {
+            if (entityId && entityId.startsWith("sensor.")) {
+                const entity = this.hass?.states[entityId];
+                if (entity && entity.state !== "unknown" &&
+                    entity.state !== "unavailable" &&
+                    entity.state.trim() !== "") {
+                    const value = Number(entity.state);
+                    if (Number.isFinite(value) && value >= 0) {
+                        const unit = entity.attributes?.unit_of_measurement;
+                        return unit === "Wh" ? value / 1000 : value;
+                    }
+                }
+            }
+            return typeof fallback === "number" &&
+                Number.isFinite(fallback) && fallback >= 0
+                ? fallback
+                : undefined;
+        };
+        const lo = resolveThreshold(this._config?.low_threshold_entity, this._config?.low_threshold);
+        const hi = resolveThreshold(this._config?.high_threshold_entity, this._config?.high_threshold);
         if (lo !== undefined && kwh < lo)
             return "low";
         if (hi !== undefined && kwh > hi)

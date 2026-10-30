@@ -652,12 +652,48 @@ export class SolarForecastCard extends LitElement {
 
   private _tier(kwh: number | null): "low" | "average" | "high" {
     if (kwh === null) return "average";
-    const lo = this._config?.low_threshold;
-    const hi = this._config?.high_threshold;
+
+    const resolveThreshold = (
+      entityId: string | undefined,
+      fallback: number | undefined
+    ): number | undefined => {
+      if (entityId && entityId.startsWith("sensor.")) {
+        const entity = this.hass?.states[entityId];
+
+        if (entity && entity.state !== "unknown" &&
+            entity.state !== "unavailable" &&
+            entity.state.trim() !== "") {
+          const value = Number(entity.state);
+
+          if (Number.isFinite(value) && value >= 0) {
+            const unit = entity.attributes?.unit_of_measurement;
+            return unit === "Wh" ? value / 1000 : value;
+          }
+        }
+      }
+
+      return typeof fallback === "number" &&
+        Number.isFinite(fallback) && fallback >= 0
+        ? fallback
+        : undefined;
+    };
+
+    const lo = resolveThreshold(
+      this._config?.low_threshold_entity,
+      this._config?.low_threshold
+    );
+
+    const hi = resolveThreshold(
+      this._config?.high_threshold_entity,
+      this._config?.high_threshold
+    );
+
     if (lo !== undefined && kwh < lo) return "low";
     if (hi !== undefined && kwh > hi) return "high";
+
     return "average";
   }
+
 
   // ── Popup ─────────────────────────────────────────────────────────────────
 

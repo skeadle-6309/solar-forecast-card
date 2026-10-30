@@ -96,6 +96,8 @@
       "solar_max_kwp": "Größe der Solaranlage (kWp)",
       "low_threshold": "Niedriger Schwellenwert (kWh)",
       "high_threshold": "Hoher Schwellenwert (kWh)",
+      "low_threshold_entity": "Niedriger Schwellenwert Sensor (kWh)",
+      "high_threshold_entity": "Hoher Schwellenwert Sensor (kWh)",
       "desktop_text_scale": "Desktop-Textskalierung",
       "font_size": "Font Size",
       "bar_width": "Bar Width"
