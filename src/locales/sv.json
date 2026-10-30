@@ -96,6 +96,8 @@
       "solar_max_kwp": "Solar array size (kWp)",
       "low_threshold": "Low threshold (kWh)",
       "high_threshold": "High threshold (kWh)",
+      "low_threshold_entity": "Low threshold sensor (optional, kWh)",
+      "high_threshold_entity": "High threshold sensor (optional, kWh)",
       "desktop_text_scale": "Desktop Text Scale",
       "font_size": "Font Size",
       "bar_width": "Bar Width"
