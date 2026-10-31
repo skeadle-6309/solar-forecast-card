@@ -235,6 +235,10 @@ Available variables:
 | `--sfc-popup-text-color` | Popup primary text colour |
 | `--sfc-popup-accent-color` | Popup accent colour |
 
+## Development
+
+See the [Developer Guide](docs/developer-guide.md) for the architecture, build and test commands, and how to add integrations and config options.
+
 ## License
 
 MIT
