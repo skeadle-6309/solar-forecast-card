@@ -57,8 +57,8 @@ export function computeHeaderStats(
   const derived = deriveForecastSummary(hass, cfg);
 
   const validForecasts = cfg.forecast_entities
-    .map((id) => (id ? parseFloat(hass?.states[id]?.state ?? "") : NaN))
-    .filter((v) => isFinite(v));
+    .map((id) => readKwh(hass, id))
+    .filter((v): v is number => v !== null);
   const totalKwh = validForecasts.reduce((s, v) => s + v, 0);
 
   return {

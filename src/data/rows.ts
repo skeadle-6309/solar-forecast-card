@@ -1,6 +1,6 @@
 import { readHoursAttr, sumEstimate10 } from "../integrations/index.js";
 import type { HomeAssistant, SolarForecastCardConfig } from "../types.js";
-import { readArrayActuals, resolveActualKwh, type ArrayActual } from "./entities.js";
+import { readArrayActuals, readKwh, resolveActualKwh, type ArrayActual } from "./entities.js";
 
 const COMPLETE_THRESHOLD = 1.0;
 
@@ -40,14 +40,13 @@ export function buildRows(hass: HomeAssistant, cfg: SolarForecastCardConfig): Fo
     date.setDate(today.getDate() + i);
 
     const s = entityId ? hass.states[entityId] : undefined;
-    const kwhVal = parseFloat(s?.state ?? "");
 
     return {
       dayIndex: i + 1,
       date,
       isToday: i === 0,
       entityId,
-      forecastKwh: isFinite(kwhVal) ? kwhVal : null,
+      forecastKwh: readKwh(hass, entityId),
       actualKwh: i === 0 ? todayActualKwh : null,
       actualArrays: i === 0 ? todayArrays : null,
       estimate10Kwh: showEstimate10
@@ -89,8 +88,8 @@ function resolveThreshold(
       const value = Number(entity.state);
 
       if (Number.isFinite(value) && value >= 0) {
-        const unit = entity.attributes?.unit_of_measurement;
-        return unit === "Wh" ? value / 1000 : value;
+        const unit = (entity.attributes?.unit_of_measurement as string | undefined)?.toLowerCase();
+        return unit === "wh" ? value / 1000 : value;
       }
     }
   }
