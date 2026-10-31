@@ -28,20 +28,7 @@
       "generated": "termelt"
     },
     "days": {
-      "sun": "Sun",
-      "mon": "Mon",
-      "tue": "Tue",
-      "wed": "Wed",
-      "thu": "Thu",
-      "fri": "Fri",
-      "sat": "Sat",
-      "today": "Today",
-      "tomorrow": "Tomorrow",
-      "day3": "Day 3",
-      "day4": "Day 4",
-      "day5": "Day 5",
-      "day6": "Day 6",
-      "day7": "Day 7"
+      "today": "Today"
     },
     "popup": {
       "close": "Close",
@@ -89,8 +76,6 @@
       "today_actual_entity": "Today's actual generation (optional)",
       "next_hour_entity": "+1HR forecast (optional, overrides auto-derived value)",
       "remaining_today_entity": "LEFT / remaining today (optional, overrides auto-derived value)",
-      "date_format": "Date format",
-      "time_format": "Time format (hourly popup)",
       "show_hourly_as_main": "Show Hourly Forecast as Main Card",
       "inverter_max_kw": "Inverter max output (kW)",
       "solar_max_kwp": "Solar array size (kWp)",
@@ -107,11 +92,7 @@
       "solcast": "Solcast",
       "volcast": "Volcast",
       "forecastSolar": "Forecast.Solar",
-      "openMeteo": "Open-Meteo Solar Forecast",
-      "dateDdMm": "DD/MM  (e.g. 15/04)",
-      "dateMmDd": "MM/DD  (e.g. 04/15)",
-      "time24h": "24h  (e.g. 17:00)",
-      "time12h": "12h  (e.g. 5pm)"
+      "openMeteo": "Open-Meteo Solar Forecast"
     },
     "sections": {
       "integrationType": "Integration Type",

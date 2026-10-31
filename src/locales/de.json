@@ -28,20 +28,7 @@
       "generated": "erzeugt"
     },
     "days": {
-      "sun": "So",
-      "mon": "Mo",
-      "tue": "Di",
-      "wed": "Mi",
-      "thu": "Do",
-      "fri": "Fr",
-      "sat": "Sa",
-      "today": "Heute",
-      "tomorrow": "Morgen",
-      "day3": "Tag 3",
-      "day4": "Tag 4",
-      "day5": "Tag 5",
-      "day6": "Tag 6",
-      "day7": "Tag 7"
+      "today": "Heute"
     },
     "popup": {
       "close": "Schließen",
@@ -89,8 +76,6 @@
       "today_actual_entity": "Heutige tatsächliche Erzeugung (optional)",
       "next_hour_entity": "+1 STD Prognose (optional, überschreibt automatisch abgeleiteten Wert)",
       "remaining_today_entity": "REST / verbleibend heute (optional, überschreibt automatisch abgeleiteten Wert)",
-      "date_format": "Datumsformat",
-      "time_format": "Zeitformat (stündliches Popup)",
       "show_hourly_as_main": "Stündliche Prognose als Hauptkarte anzeigen",
       "inverter_max_kw": "Max. Wechselrichterleistung (kW)",
       "solar_max_kwp": "Größe der Solaranlage (kWp)",
@@ -107,11 +92,7 @@
       "solcast": "Solcast",
       "volcast": "Volcast",
       "forecastSolar": "Forecast.Solar",
-      "openMeteo": "Open-Meteo Solar Forecast",
-      "dateDdMm": "TT/MM  (z. B. 15/04)",
-      "dateMmDd": "MM/TT  (z. B. 04/15)",
-      "time24h": "24 h  (z. B. 17:00)",
-      "time12h": "12 h  (z. B. 5pm)"
+      "openMeteo": "Open-Meteo Solar Forecast"
     },
     "sections": {
       "integrationType": "Integrationstyp",
