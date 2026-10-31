@@ -4,6 +4,13 @@ export interface ActualArrayEntry {
   label: string;
 }
 
+export type IntegrationType =
+  | "volcast"
+  | "solcast"
+  | "forecast_solar"
+  | "open_meteo_solar_forecast"
+  | "manual";
+
 export interface SolarForecastCardConfig {
   type: string;
   title?: string;
@@ -13,7 +20,7 @@ export interface SolarForecastCardConfig {
   display_estimate10: boolean;
   device_id?: string;
   /** Set automatically when a device is selected; not exposed in UI. */
-  integration_type: "volcast" | "solcast" | "forecast_solar" | "open_meteo_solar_forecast" | "manual";
+  integration_type: IntegrationType;
   forecast_entities: [string, string, string, string, string, string, string];
   live_power_entity?: string;
   today_actual_entity?: string;
@@ -74,6 +81,7 @@ export interface HomeAssistant {
     time_format?: string;
     [key: string]: unknown;
   };
+  callApi?<T>(method: string, path: string): Promise<T>;
 }
 
 export interface HassEntity {
